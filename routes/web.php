@@ -19,6 +19,12 @@ Route::group(['prefix'=>'admin'],function(){
     Route::get('news/create','Admin\NewsController@add');
 });
 
+//課題１
+//└ Routing
+
+//課題２
+//└何度も同じ指示を書かなくていい
+
 //課題３
 //Route::get('xxx/','xxx\bbb')
 
