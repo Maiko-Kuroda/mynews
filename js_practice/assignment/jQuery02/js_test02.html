@@ -1,0 +1,38 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    .title {
+      text-decoration: underline;
+    }
+    .list {
+      list-style: none;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>jQueryの基本</h1>
+  <h2>HTML/CSSとJavaScriptの基本的な構文について理解していること</h2>
+  <ul id="index1" class="list">
+    <li>jQueryのはじめ方</li>
+    <li>セレクタ</li>
+    <li>css</li>
+  </ul>
+  <ul id="index2" class="list">
+    <li>jQueryのはじめ方2</li>
+    <li>セレクタ2</li>
+  </ul>
+  
+  <!-- jQueryの読み込み -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <!-- 自作JavaScriptの読み込み -->
+  <script src="test02.js"></script>
+ 
+</body>
+
+<script>
+   ('#index1').append('<li>メソッド</li>');
+   </script>
+</html>
