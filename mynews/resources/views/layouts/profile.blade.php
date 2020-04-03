@@ -24,7 +24,7 @@
         <!-- Styles -->
         {{-- テキスト11の課題3にて追記 --}}
        <link href="{{ secure_asset('css/profile.css') }}" rel="stylesheet">
-        {{-- この章の後半で作成するCSSを読み込みます --}}
+    
         <link href="{{ secure_asset('css/admin.css') }}" rel="stylesheet">
     </head>
     <body>
