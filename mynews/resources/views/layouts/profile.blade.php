@@ -25,7 +25,6 @@
         {{-- テキスト11の課題3にて追記 --}}
        <link href="{{ secure_asset('css/profile.css') }}" rel="stylesheet">
     
-        <link href="{{ secure_asset('css/admin.css') }}" rel="stylesheet">
     </head>
     <body>
         <div id="app">
